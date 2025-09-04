@@ -5,5 +5,5 @@ import App from "./App.tsx";
 // Mount PixiJS React app
 createRoot(document.getElementById("pixi-container")!).render(<App />);
 
-// Mount Svelte overlay
-import "./main.svelte.ts";
+// Mount Svelte overlay (commented out for duck game demo)
+// import "./main.svelte.ts";
